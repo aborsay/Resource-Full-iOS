@@ -23,6 +23,9 @@
 		7969E3B22342DE9C00BD5B44 /* ContactsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7969E3B12342DE9C00BD5B44 /* ContactsCell.swift */; };
 		7969E3B42342FA6500BD5B44 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7969E3B32342FA6500BD5B44 /* Contacts.swift */; };
 		796EC4B42343B6B30080CC25 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 796EC4B32343B6B30080CC25 /* GoogleService-Info.plist */; };
+		E82AF01123CD1D82003A770C /* Resource-Full in Resources */ = {isa = PBXBuildFile; fileRef = E82AF01023CD1D82003A770C /* Resource-Full */; };
+		E82AF01323CD1E66003A770C /* Resource-Full in Resources */ = {isa = PBXBuildFile; fileRef = E82AF01223CD1E65003A770C /* Resource-Full */; };
+		E82AF01523CD1E93003A770C /* Resource-Full.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = E82AF01423CD1E93003A770C /* Resource-Full.xcworkspace */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +74,9 @@
 		9C2B2C53528A9144222B0F7E /* Pods_Resource_FullUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Resource_FullUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7CF80F5550B9C48C64CF239 /* Pods_Resource_Full.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Resource_Full.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F9858F932AA0B8A1FF5CD8 /* Pods_Resource_FullTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Resource_FullTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E82AF01023CD1D82003A770C /* Resource-Full */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Resource-Full"; sourceTree = "<group>"; };
+		E82AF01223CD1E65003A770C /* Resource-Full */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Resource-Full"; sourceTree = "<group>"; };
+		E82AF01423CD1E93003A770C /* Resource-Full.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = "Resource-Full.xcworkspace"; sourceTree = "<group>"; };
 		EF25047D5B7B92072C3D010A /* Pods-Resource-FullUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resource-FullUITests.release.xcconfig"; path = "Target Support Files/Pods-Resource-FullUITests/Pods-Resource-FullUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,7 +123,9 @@
 		7958912422FCFA7B0045BFBA = {
 			isa = PBXGroup;
 			children = (
+				E82AF01423CD1E93003A770C /* Resource-Full.xcworkspace */,
 				7958912F22FCFA7B0045BFBA /* Resource-Full */,
+				E82AF01023CD1D82003A770C /* Resource-Full */,
 				7958914422FCFA7D0045BFBA /* Resource-FullTests */,
 				7958914F22FCFA7D0045BFBA /* Resource-FullUITests */,
 				7958912E22FCFA7B0045BFBA /* Products */,
@@ -150,6 +158,7 @@
 				795E525923418B77000F84CD /* InfoController.swift */,
 				7969E38923423D2600BD5B44 /* AlignmentTopImage.swift */,
 				7969E3B12342DE9C00BD5B44 /* ContactsCell.swift */,
+				E82AF01223CD1E65003A770C /* Resource-Full */,
 				796EC4B32343B6B30080CC25 /* GoogleService-Info.plist */,
 				7969E3B32342FA6500BD5B44 /* Contacts.swift */,
 			);
@@ -293,8 +302,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7958913B22FCFA7D0045BFBA /* LaunchScreen.storyboard in Resources */,
+				E82AF01523CD1E93003A770C /* Resource-Full.xcworkspace in Resources */,
 				7958913822FCFA7D0045BFBA /* Assets.xcassets in Resources */,
 				796EC4B42343B6B30080CC25 /* GoogleService-Info.plist in Resources */,
+				E82AF01323CD1E66003A770C /* Resource-Full in Resources */,
+				E82AF01123CD1D82003A770C /* Resource-Full in Resources */,
 				7969E3AE23428E6200BD5B44 /* resource_full.sqlite in Resources */,
 				7958913622FCFA7B0045BFBA /* Main.storyboard in Resources */,
 			);
